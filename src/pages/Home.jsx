@@ -1,6 +1,7 @@
 import { Announcement } from "../components/Announcement";
 import { Header } from "../components/Header";
 import { Slider } from "../components/Slider";
+import { Categories } from "../components/Categories";
 
 export const Home = () => {
   return (
@@ -8,6 +9,7 @@ export const Home = () => {
       <Announcement />
       <Header />
       <Slider />
+      <Categories />
     </div>
   );
 };
