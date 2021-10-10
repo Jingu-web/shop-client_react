@@ -20,12 +20,6 @@ const Filter = styled.div`
   margin: 20px;
 `;
 
-const FilterText = styled.span`
-  font-size: 20px;
-  font-weight: 600;
-  margin-right: 20px;
-`;
-
 const Select = styled.select`
   padding: 10px;
   margin-right: 20px;
@@ -41,7 +35,6 @@ export const ProductList = () => {
       <Title>Dresses</Title>
       <FilterContainer>
         <Filter>
-          {/* <FilterText>Fillter Products:</FilterText> */}
           <Select>
             <Option disabled selected>
               Color
@@ -65,7 +58,6 @@ export const ProductList = () => {
           </Select>
         </Filter>
         <Filter>
-          {/* <FilterText>並び替え:</FilterText> */}
           <Select>
             <Option selected>最新</Option>
             <Option>価格の高い順</Option>
